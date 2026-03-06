@@ -1,0 +1,19 @@
+{
+  "name": "persec2026-web-dev-interview-suphakorn-pungko",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --no-warnings=ExperimentalWarning --loader ts-node/esm",
+    "test:all": "find . -type f -name '*.test.ts' ! -path '*/node_modules/*' -exec node --no-warnings=ExperimentalWarning --loader ts-node/esm {} \\;"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^25.3.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
